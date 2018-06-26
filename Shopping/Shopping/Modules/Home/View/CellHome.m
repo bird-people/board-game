@@ -23,8 +23,13 @@
         _lbTitle = [[UILabel alloc]initWithFrame:CGRectZero];
         _lbTitle.font = [UIFont systemFontOfSize:14*RATIO_WIDHT320];
         _lbTitle.textColor = RGB(0, 0, 0);
-        _lbTitle.numberOfLines = 3;
         [self addSubview:_lbTitle];
+        
+        _lbContent = [[UILabel alloc]initWithFrame:CGRectZero];
+        _lbContent.font = [UIFont systemFontOfSize:14*RATIO_WIDHT320];
+        _lbContent.textColor = RGB(0, 0, 0);
+        _lbContent.numberOfLines = 2;
+        [self addSubview:_lbContent];
     }
     return self;
 }
@@ -51,6 +56,14 @@
     r.size.height = size.height;
     r.size.width = w;
     self.lbTitle.frame = r;
+    
+    size = [self.lbContent sizeThatFits:CGSizeMake(w, MAXFLOAT)];
+    r = self.lbContent.frame;
+    r.origin.x = self.ivImg.right + 10*RATIO_WIDHT320;
+    r.origin.y = self.lbTitle.bottom +  10*RATIO_WIDHT320;
+    r.size.height = size.height;
+    r.size.width = w;
+    self.lbContent.frame = r;
 }
 
 + (CGFloat)calHeight{

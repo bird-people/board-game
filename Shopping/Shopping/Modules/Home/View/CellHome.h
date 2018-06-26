@@ -11,4 +11,5 @@
 @interface CellHome : UITableViewCell
 @property(nonatomic,strong)UIImageView *ivImg;
 @property(nonatomic,strong)UILabel *lbTitle;
+@property(nonatomic,strong)UILabel *lbContent;
 @end

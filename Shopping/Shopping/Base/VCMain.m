@@ -40,7 +40,7 @@
                                    kSelImgKey : @"tab_commodity_icon_selected"},
                                  
                                  @{kClassKey  : @"VCMine",
-                                   kTitleKey  : @"我的",
+                                   kTitleKey  : @"关于",
                                    kImgKey    : @"tab_me_icon_selnormal",
                                    kSelImgKey : @"tab_me_icon_selected"} ];
     

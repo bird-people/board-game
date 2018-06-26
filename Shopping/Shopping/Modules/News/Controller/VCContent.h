@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface VCContent : UIViewController
-
+@property(nonatomic,strong)NSDictionary *data;
 @end

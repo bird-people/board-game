@@ -24,6 +24,7 @@
 		1CFB48D120E27267005913B6 /* UITypes+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D020E27267005913B6 /* UITypes+extension.m */; };
 		1CFB48D420E274F3005913B6 /* CellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D320E274F3005913B6 /* CellHome.m */; };
 		1CFB48D720E2779E005913B6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D620E2779E005913B6 /* UIView+Frame.m */; };
+		1CFB48DA20E27E79005913B6 /* VCContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D920E27E79005913B6 /* VCContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		1CFB48D320E274F3005913B6 /* CellHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellHome.m; sourceTree = "<group>"; };
 		1CFB48D520E2779D005913B6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		1CFB48D620E2779E005913B6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1CFB48D820E27E79005913B6 /* VCContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCContent.h; sourceTree = "<group>"; };
+		1CFB48D920E27E79005913B6 /* VCContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCContent.m; sourceTree = "<group>"; };
 		2DC1C08723AAFE27E7E14D10 /* Pods-Shopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shopping/Pods-Shopping.debug.xcconfig"; sourceTree = "<group>"; };
 		4FE6EEA430019DE5242D64A4 /* Pods-Shopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shopping/Pods-Shopping.release.xcconfig"; sourceTree = "<group>"; };
 		77393B2B8824A577F6C11402 /* libPods-Shopping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shopping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,6 +269,8 @@
 			children = (
 				1CFB48CC20E27147005913B6 /* VCNews.h */,
 				1CFB48CD20E27147005913B6 /* VCNews.m */,
+				1CFB48D820E27E79005913B6 /* VCContent.h */,
+				1CFB48D920E27E79005913B6 /* VCContent.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 			files = (
 				1CFB489220E26410005913B6 /* ViewController.m in Sources */,
 				1CFB48C420E270DE005913B6 /* VCMain.m in Sources */,
+				1CFB48DA20E27E79005913B6 /* VCContent.m in Sources */,
 				1CFB48C920E2711E005913B6 /* VCMine.m in Sources */,
 				1CFB48AF20E26498005913B6 /* VCHome.m in Sources */,
 				1CFB48C120E26AE4005913B6 /* AdsWindow.m in Sources */,

@@ -9,29 +9,42 @@
 #import "VCContent.h"
 
 @interface VCContent ()
-
+@property(nonatomic,strong)UIWebView *webView;
 @end
 
 @implementation VCContent
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.view addSubview:self.webView];
+    self.title = [self.data jk_stringForKey:@"title"];
+    [self.webView loadHTMLString:[self installHtml:[self.data jk_stringForKey:@"content"]] baseURL:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (NSString*)installHtml:(NSString*)content{
+    if(!content){
+        content = @"";
+    }
+    NSMutableString *html = [NSMutableString string];
+    [html appendString:@"<html>"];
+    [html appendString:@"<head>"];
+    [html appendFormat:@"<link rel=\"stylesheet\" href=\"%@\">",[[NSBundle mainBundle] URLForResource:@"notice.css" withExtension:nil]];
+    [html appendString:@"</head>"];
+    
+    [html appendString:@"<body style=\"background:#ffffff\">"];
+    [html appendString:content];
+    [html appendString:@"</body>"];
+    [html appendString:@"</html>"];
+    
+    return html;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UIWebView*)webView{
+    if(!_webView){
+        _webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, DEVICEWIDTH, DEVICEHEIGHT)];
+    }
+    return _webView;
 }
-*/
 
 @end

@@ -10,6 +10,7 @@
 #import "AdsWindow.h"
 #import <SDCycleScrollView.h>
 #import "CellHome.h"
+#import "VCContent.h"
 
 @interface VCHome ()<UITableViewDelegate,UITableViewDataSource,SDCycleScrollViewDelegate>
 @property(nonatomic,strong)NSMutableArray *dataSource;
@@ -79,6 +80,7 @@
     NSDictionary *data = [self.dataSource objectAtIndex:indexPath.row];
     [cell.ivImg pt_setImage:[NSString stringWithFormat:@"%@%@",Base_Url,[data jk_stringForKey:@"thumb"]]];
     cell.lbTitle.text = [data jk_stringForKey:@"title"];
+    cell.lbContent.text = [data jk_stringForKey:@"author"];
     return cell;
 }
 
@@ -107,7 +109,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    NSDictionary *data = [self.dataSource objectAtIndex:indexPath.row];
+    VCContent *vc = [[VCContent alloc]init];
+    vc.data = data;
+    vc.hidesBottomBarWhenPushed = TRUE;
+    [self.navigationController pushViewController:vc animated:TRUE];
 }
 
 - (UITableView*)table{
