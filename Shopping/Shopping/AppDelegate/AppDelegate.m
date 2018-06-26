@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "VCHome.h"
+#import "VCMain.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    VCHome *vc = [[VCHome alloc]init];
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:vc];
+    VCMain *vc = [[VCMain alloc]init];
+    self.window.rootViewController = vc;//[[UINavigationController alloc]initWithRootViewController:vc];
     [self.window makeKeyAndVisible];
     return YES;
 }

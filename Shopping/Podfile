@@ -11,6 +11,7 @@ target 'Shopping' do
   pod 'AFNetworking'
   pod 'MJRefresh’
   pod 'SDWebImage', '~> 4.0'
+  pod 'SDCycleScrollView','~> 1.75'
   
   # Pods for Shopping
 

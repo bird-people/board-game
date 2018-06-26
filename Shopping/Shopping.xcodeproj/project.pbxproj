@@ -16,6 +16,14 @@
 		1CFB489D20E26412005913B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB489C20E26412005913B6 /* main.m */; };
 		1CFB48AF20E26498005913B6 /* VCHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48AE20E26498005913B6 /* VCHome.m */; };
 		1CFB48B420E264D1005913B6 /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48B320E264D1005913B6 /* NSDictionary+SafeAccess.m */; };
+		1CFB48BD20E268C5005913B6 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48BB20E268C5005913B6 /* NetManager.m */; };
+		1CFB48C120E26AE4005913B6 /* AdsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48BF20E26AE4005913B6 /* AdsWindow.m */; };
+		1CFB48C420E270DE005913B6 /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48C320E270DE005913B6 /* VCMain.m */; };
+		1CFB48C920E2711E005913B6 /* VCMine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48C820E2711E005913B6 /* VCMine.m */; };
+		1CFB48CE20E27147005913B6 /* VCNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48CD20E27147005913B6 /* VCNews.m */; };
+		1CFB48D120E27267005913B6 /* UITypes+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D020E27267005913B6 /* UITypes+extension.m */; };
+		1CFB48D420E274F3005913B6 /* CellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D320E274F3005913B6 /* CellHome.m */; };
+		1CFB48D720E2779E005913B6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB48D620E2779E005913B6 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +43,23 @@
 		1CFB48B320E264D1005913B6 /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
 		1CFB48B620E265C3005913B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1CFB48B720E2662E005913B6 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		1CFB48BB20E268C5005913B6 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		1CFB48BC20E268C5005913B6 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		1CFB48BE20E268F5005913B6 /* NetUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetUrl.h; sourceTree = "<group>"; };
+		1CFB48BF20E26AE4005913B6 /* AdsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsWindow.m; sourceTree = "<group>"; };
+		1CFB48C020E26AE4005913B6 /* AdsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsWindow.h; sourceTree = "<group>"; };
+		1CFB48C220E270DE005913B6 /* VCMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCMain.h; sourceTree = "<group>"; };
+		1CFB48C320E270DE005913B6 /* VCMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCMain.m; sourceTree = "<group>"; };
+		1CFB48C720E2711E005913B6 /* VCMine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCMine.h; sourceTree = "<group>"; };
+		1CFB48C820E2711E005913B6 /* VCMine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCMine.m; sourceTree = "<group>"; };
+		1CFB48CC20E27147005913B6 /* VCNews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCNews.h; sourceTree = "<group>"; };
+		1CFB48CD20E27147005913B6 /* VCNews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCNews.m; sourceTree = "<group>"; };
+		1CFB48CF20E27266005913B6 /* UITypes+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITypes+extension.h"; sourceTree = "<group>"; };
+		1CFB48D020E27267005913B6 /* UITypes+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITypes+extension.m"; sourceTree = "<group>"; };
+		1CFB48D220E274F3005913B6 /* CellHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellHome.h; sourceTree = "<group>"; };
+		1CFB48D320E274F3005913B6 /* CellHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellHome.m; sourceTree = "<group>"; };
+		1CFB48D520E2779D005913B6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1CFB48D620E2779E005913B6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		2DC1C08723AAFE27E7E14D10 /* Pods-Shopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shopping/Pods-Shopping.debug.xcconfig"; sourceTree = "<group>"; };
 		4FE6EEA430019DE5242D64A4 /* Pods-Shopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shopping/Pods-Shopping.release.xcconfig"; sourceTree = "<group>"; };
 		77393B2B8824A577F6C11402 /* libPods-Shopping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shopping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				1CFB48A920E26478005913B6 /* Home */,
+				1CFB48CA20E27136005913B6 /* News */,
+				1CFB48C520E27104005913B6 /* Mine */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -125,6 +152,10 @@
 		1CFB48A720E26437005913B6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1CFB48C020E26AE4005913B6 /* AdsWindow.h */,
+				1CFB48BF20E26AE4005913B6 /* AdsWindow.m */,
+				1CFB48C220E270DE005913B6 /* VCMain.h */,
+				1CFB48C320E270DE005913B6 /* VCMain.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -160,6 +191,8 @@
 		1CFB48AB20E26488005913B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1CFB48D220E274F3005913B6 /* CellHome.h */,
+				1CFB48D320E274F3005913B6 /* CellHome.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +207,10 @@
 		1CFB48B020E264B7005913B6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1CFB48D520E2779D005913B6 /* UIView+Frame.h */,
+				1CFB48D620E2779E005913B6 /* UIView+Frame.m */,
+				1CFB48CF20E27266005913B6 /* UITypes+extension.h */,
+				1CFB48D020E27267005913B6 /* UITypes+extension.m */,
 				1CFB48B220E264D1005913B6 /* NSDictionary+SafeAccess.h */,
 				1CFB48B320E264D1005913B6 /* NSDictionary+SafeAccess.m */,
 			);
@@ -183,6 +220,8 @@
 		1CFB48B120E264C7005913B6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1CFB48BC20E268C5005913B6 /* NetManager.h */,
+				1CFB48BB20E268C5005913B6 /* NetManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -192,8 +231,43 @@
 			children = (
 				1CFB48B620E265C3005913B6 /* PrefixHeader.pch */,
 				1CFB48B720E2662E005913B6 /* global.h */,
+				1CFB48BE20E268F5005913B6 /* NetUrl.h */,
 			);
 			path = Define;
+			sourceTree = "<group>";
+		};
+		1CFB48C520E27104005913B6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1CFB48C620E2710F005913B6 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1CFB48C620E2710F005913B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CFB48C720E2711E005913B6 /* VCMine.h */,
+				1CFB48C820E2711E005913B6 /* VCMine.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CFB48CA20E27136005913B6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				1CFB48CB20E2713B005913B6 /* Controller */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		1CFB48CB20E2713B005913B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CFB48CC20E27147005913B6 /* VCNews.h */,
+				1CFB48CD20E27147005913B6 /* VCNews.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		79AAB0F24D73065F6C3FB3E7 /* Pods */ = {
@@ -325,9 +399,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFB489220E26410005913B6 /* ViewController.m in Sources */,
+				1CFB48C420E270DE005913B6 /* VCMain.m in Sources */,
+				1CFB48C920E2711E005913B6 /* VCMine.m in Sources */,
 				1CFB48AF20E26498005913B6 /* VCHome.m in Sources */,
+				1CFB48C120E26AE4005913B6 /* AdsWindow.m in Sources */,
+				1CFB48D720E2779E005913B6 /* UIView+Frame.m in Sources */,
+				1CFB48CE20E27147005913B6 /* VCNews.m in Sources */,
 				1CFB489D20E26412005913B6 /* main.m in Sources */,
+				1CFB48BD20E268C5005913B6 /* NetManager.m in Sources */,
+				1CFB48D120E27267005913B6 /* UITypes+extension.m in Sources */,
 				1CFB48B420E264D1005913B6 /* NSDictionary+SafeAccess.m in Sources */,
+				1CFB48D420E274F3005913B6 /* CellHome.m in Sources */,
 				1CFB488F20E26410005913B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +558,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sean.Shopping;
+				PRODUCT_BUNDLE_IDENTIFIER = zy.ganme.wh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,7 +576,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sean.Shopping;
+				PRODUCT_BUNDLE_IDENTIFIER = zy.ganme.wh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

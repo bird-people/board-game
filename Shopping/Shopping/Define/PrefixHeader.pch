@@ -20,6 +20,10 @@
 #import <MJRefresh.h>
 
 #import "global.h"
+#import "NetUrl.h"
+#import "NetManager.h"
+#import "UITypes+extension.h"
+#import "UIView+Frame.h"
 
 
 
